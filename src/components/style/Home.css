@@ -1,28 +1,105 @@
 .home {
     background-image: url("./img/top.jpg");
-    background-color:rgba(255, 255, 255, 0.5);
-    display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  
   height:100vh;
-  background-size:150%;
+  background-size:200%;
   background-repeat:no-repeat;
   background-attachment: fixed;
 }
 
+.homecatch{
+  background: rgba(255, 255, 255, 0.6);
+  height:100%;
+  width:50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+
 .home h1{
-    color:#fff;
-    font-size:8em;
+    color:#343A40;
+    font-size: 7em;
+    background-color: rgba(255, 255, 255, 0.6);
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    padding-left: 20%;
+}
+
+.reina{
+  animation-name: slideinR;
+}
+
+.tochigi{
+  animation-name: slideinT;
+}
+
+@keyframes slideinR {
+  from {
+    padding-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    padding-left: 20%;
+    width: 100%;
+  }
+}
+
+@keyframes slideinT {
+  from {
+    padding-left: 0%;
+    width: -300%;
+  }
+  to {
+    padding-left: 20%;
+    width: 100%;
+  }
+}
+
+.home h2 {
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left:20%;
+    margin-top:1em;
+    animation-delay:1s;
+    animation-duration: 2s;
+    animation-name: emerge;
+    animation-fill-mode: both;
+}
+
+@keyframes emerge{
+  from{
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+  }
+
+  to{
+    color:#343A40;
+  }
+
+}
+
+
+@media screen and (max-width:800px)  {
+  .home{
+  height:100vh;
+  background-size: 200%;
+  }
+
+  .home h1 {
+    font-size: 4em;
+  }
+
+  .home h2 {
+    font-size:1.5em;
+  }
 }
