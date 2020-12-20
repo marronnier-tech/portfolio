@@ -2,3 +2,40 @@
     padding: 3em;
 }
 
+.story {
+    margin-top:2em;
+}
+
+.intro{
+    margin: 1em 2em;
+}
+
+.name-zone {
+    display:table;
+    border-bottom:solid 1px #555;
+    padding-bottom:0.4em;
+    width: 100%;
+    text-align:left;
+    padding-left: 1em;
+}
+
+.story h2 {
+   display: table-cell;
+   margin-bottom:0em;
+   width:5em;
+}
+
+.eng-name {
+    display:block;
+    margin-bottom:0em;
+
+}
+.tech {
+    margin:4em 2em;
+}
+
+h4 {
+    font-size: 1.4em;
+    border-bottom:solid 1px #555;
+    padding-bottom:0.3em;
+}
