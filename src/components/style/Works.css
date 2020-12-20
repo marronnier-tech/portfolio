@@ -1,0 +1,23 @@
+.works {
+    padding: 3em;
+}
+
+.story {
+    margin-top:2em;
+}
+
+.product{
+    margin: 1em 2em;
+}
+
+.product h2 {
+   border-bottom:solid 1px #555;
+   padding-bottom:0.4em;
+   width: 90%;
+   text-align:left;
+   padding-left: 1em;
+}
+
+.product p {
+    margin: 1em 3em;
+}
