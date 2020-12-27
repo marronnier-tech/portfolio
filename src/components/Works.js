@@ -13,7 +13,9 @@ class Works extends React.Component {
                         <p>Discordの勉強サーバーで「日課が続かない」という声を聞いて共感し、<br />
                         日課を共有することで持続力がアップするのではないかと考えて
                         日課共有専用のSNSを作ることにした。<br />
-                        バックエンドではGoを採用。こちらは奮わなかったインターンの内容を自学で習得するために選定した。</p>
+                        バックエンドではGoを採用。こちらは奮わなかったインターンの内容を自学で習得するために選定した。<br />
+                        ※現在メンテナンス中のためログイン以降の機能が使えません
+                        </p>
 
                     </div>
                     <div className="product">
@@ -25,7 +27,7 @@ class Works extends React.Component {
                     </div>
                     <div className="product">
                         <h2>
-                            何か年内に作る
+                            Djangoによる制作（仮）
                         </h2>
                         <p></p>
                     </div>
