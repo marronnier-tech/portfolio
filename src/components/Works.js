@@ -10,6 +10,7 @@ class Works extends React.Component {
                     <div className="product">
                         <h2><a href="https://todot-com.herokuapp.com/" target="_blank">ToDotCom(トゥドットコム）</a>
                         </h2>
+                        <img src={`${window.location.origin}/todot-com.png`} />
                         <p>Discordの勉強サーバーで「日課が続かない」という声を聞いて共感し、<br />
                         日課を共有することで持続力がアップするのではないかと考えて
                         日課共有専用のSNSを作ることにした。<br />
@@ -27,7 +28,7 @@ class Works extends React.Component {
                     </div>
                     <div className="product">
                         <h2>
-                            Djangoによる制作（仮）
+                            Djangoによる制作
                         </h2>
                         <p></p>
                     </div>
