@@ -36,19 +36,6 @@ class Profile extends React.Component {
                         </ul>
                         <p>本ページはReactで制作しています。</p>
                     </div>
-
-                    <div className="tech">
-                        <h4>学んできた言語や技術（フレームワーク）</h4>
-                        <ul>
-                            <li>Go（gin、gorm）</li>
-                            <li>HTML、CSS（Bootstrap）</li>
-                            <li>JavaScript（Node.js（Vue CLI、React）、jQuery、Three.js）</li>
-                            <li>C++</li>
-                            <li>Python（Django）</li>
-                            <li>Java</li>
-                        </ul>
-                        <p>本ページはReactで制作しています。</p>
-                    </div>
                 </div>
 
             </div >

@@ -7,9 +7,23 @@
 }
 
 .product{
-    margin: 4em 4em;
+    margin: 6em 4em;
     text-align:center;
+    animation-name: fade;
+    animation-duration:2.0s;
 }
+
+@keyframes fade {
+    from{
+        opacity: 0.0;
+
+    }
+    to{
+        opacity:1.0;
+
+    }
+}
+
 
 .product h2 {
    border-bottom:solid 1px #555;

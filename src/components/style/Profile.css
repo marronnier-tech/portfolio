@@ -1,9 +1,23 @@
 .profile {
     padding: 3em;
+
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.0;
+
+    }
+    to{
+        opacity:1.0;
+
+    }
 }
 
 .story {
-    margin-top:2em;
+    margin: 4em 4em;
+    animation-name: fade;
+    animation-duration:2.0s;
 }
 
 .intro{
@@ -17,12 +31,14 @@
     width: 100%;
     text-align:left;
     padding-left: 1em;
+    margin-top:6em;
 }
 
 .story h2 {
    display: table-cell;
    margin-bottom:0em;
    width:5em;
+   
 }
 
 .eng-name {
