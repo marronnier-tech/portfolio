@@ -29,17 +29,16 @@
     color:#343A40;
     font-size: 7em;
     background-color: rgba(255, 255, 255, 0.6);
-    animation-duration: 1.5s;
     animation-fill-mode: both;
     padding-left: 20%;
 }
 
 .reina{
-  animation-name: slideinR;
+  animation: slideinR 1.5s ease 0s 1 normal;
 }
 
 .tochigi{
-  animation-name: slideinT;
+  animation: slideinT 1.5s ease 0s 1 normal;
 }
 
 @keyframes slideinR {
