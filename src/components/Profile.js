@@ -1,11 +1,12 @@
 import React from 'react'
 import './style/Profile.css'
+import Abs from './Abs.js'
 
 class Profile extends React.Component {
     render() {
         return (
             < div className="profile" >
-                <h1>Profiles</h1>
+                <Abs />
                 <div className="story">
                     <div className="name-zone">
                         <h2>杤木 澪南</h2>

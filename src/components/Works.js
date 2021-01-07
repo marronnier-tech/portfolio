@@ -1,11 +1,13 @@
 import React from 'react'
 import './style/Works.css'
+import Abs from './Abs.js'
 
 class Works extends React.Component {
     render() {
         return (
             < div className="works" >
-                <h1>Works</h1>
+                <h1 class="top-item">Works</h1>
+                <Abs />
                 <div>
                     <div className="product">
                         <h2><a href="https://todot-com.herokuapp.com/" target="_blank">ToDotCom(トゥドットコム）</a>
