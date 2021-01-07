@@ -6,7 +6,6 @@ class Works extends React.Component {
     render() {
         return (
             < div className="works" >
-                <h1 class="top-item">Works</h1>
                 <Abs />
                 <div>
                     <div className="product">

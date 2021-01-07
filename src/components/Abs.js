@@ -2,9 +2,9 @@ import React from 'react'
 import './style/Profile.css'
 
 var path;
-path = 'Path';
+path = window.location.pathname.slice(1);
 
-class Profile extends React.Component {
+class Abs extends React.Component {
     render() {
         return (
             <h1 class="top-item">{path}</h1>
@@ -12,4 +12,4 @@ class Profile extends React.Component {
     }
 }
 
-export default Profile;
+export default Abs;
