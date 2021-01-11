@@ -6,7 +6,7 @@ class Works extends React.Component {
     render() {
         return (
             < div className="works" >
-                <Abs />
+                <Abs name="Works" />
                 <div>
                     <div className="product">
                         <h2><a href="https://todot-com.herokuapp.com/" target="_blank">ToDotCom(トゥドットコム）</a>

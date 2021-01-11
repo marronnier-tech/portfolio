@@ -6,7 +6,7 @@ class Profile extends React.Component {
     render() {
         return (
             < div className="profile" >
-                <Abs />
+                <Abs name="Profile"/>
                 <div className="story">
                     <div className="name-zone">
                         <h2>杤木 澪南</h2>
