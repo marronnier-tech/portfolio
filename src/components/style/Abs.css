@@ -1,0 +1,17 @@
+.top-item{
+    animation:falling 1s ease-out forwards;
+    position: relative;
+  }
+  
+  @keyframes falling{
+    from {
+      top: -150px;
+      left: 250px;
+      transform:scale(1.5,0.8);
+    }
+    to {
+      top: 0px;
+      left: 0px;
+    }
+  }
+  

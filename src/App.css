@@ -7,18 +7,3 @@
   height:100vh;
 }
 
-.top-item{
-  animation:label;
-  position: relative;
-}
-
-@keyframes label {
-  from {
-    top: -30px;
-    left: -30px;
-  }
-  to {
-    top: 0px;
-    left: 0px;
-  }
-}
