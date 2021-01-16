@@ -6,7 +6,7 @@ class Profile extends React.Component {
     render() {
         return (
             < div className="profile" >
-                <Abs name="Profile"/>
+                <Abs name="Profile" />
                 <div className="story">
                     <div className="name-zone">
                         <h2>杤木 澪南</h2>
@@ -36,6 +36,11 @@ class Profile extends React.Component {
                             <li>Java</li>
                         </ul>
                         <p>本ページはReactで制作しています。</p>
+                    </div>
+                    <div className="tech">
+                        <h4>将来の展望</h4>
+                        <p>バックエンドを中心にエンジニアとして働きたいです。<br />
+                        将来的にはバックエンドを専門とし、他の領域のことも熟知したフルスタックエンジニアになりたいです。</p>
                     </div>
                 </div>
 
