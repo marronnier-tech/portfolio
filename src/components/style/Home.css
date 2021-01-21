@@ -1,6 +1,5 @@
 .home {
     background-image: url("./img/top.jpg");
-  
   height:100vh;
   background-size:200%;
   background-repeat:no-repeat;
@@ -31,6 +30,7 @@
     background-color: rgba(255, 255, 255, 0.6);
     animation-fill-mode: both;
     padding-left: 20%;
+    position: relative;
 }
 
 .reina{
